@@ -1,0 +1,47 @@
+{
+  "name": "@scopeblind/verify-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for offline verification of ScopeBlind and Veritas Acta artifacts.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "scopeblind-verify-mcp": "server.js"
+  },
+  "files": [
+    "server.js",
+    "README.md",
+    "server.json",
+    "samples/"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "@veritasacta/artifacts": "^0.2.0",
+    "zod": "^3.24.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "scopeblind",
+    "veritasacta",
+    "artifact-verification",
+    "receipts",
+    "offline-verification"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomjwxf/scopeblind-gateway.git"
+  },
+  "homepage": "https://scopeblind.com/verify",
+  "bugs": {
+    "url": "https://github.com/tomjwxf/scopeblind-gateway/issues"
+  },
+  "mcpName": "io.github.tomjwxf/verify-mcp",
+  "scripts": {
+    "check": "node --check server.js",
+    "smoke": "node test/smoke.mjs",
+    "prepublishOnly": "npm run check && npm run smoke"
+  }
+}

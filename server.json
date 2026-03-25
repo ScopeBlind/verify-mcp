@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tomjwxf/verify-mcp",
+  "description": "Offline Ed25519 verification of signed receipts, bundles, and trust artifacts.",
+  "repository": {
+    "url": "https://github.com/tomjwxf/scopeblind-gateway",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@scopeblind/verify-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtime": "node",
+      "runtimeArgs": []
+    }
+  ]
+}
