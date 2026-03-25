@@ -10,6 +10,8 @@ It is deliberately narrow:
 
 This is the registry-worthy MCP surface for the verification lane. It is not a gateway, not a builder, and not a hosted verification service.
 
+[![verify-mcp MCP server](https://glama.ai/mcp/servers/tomjwxf/verify-mcp/badges/card.svg)](https://glama.ai/mcp/servers/tomjwxf/verify-mcp)
+
 ## Install
 
 ```bash
