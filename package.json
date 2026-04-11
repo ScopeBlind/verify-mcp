@@ -32,13 +32,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomjwxf/scopeblind-gateway.git"
+    "url": "git+https://github.com/ScopeBlind/verify-mcp.git"
   },
   "homepage": "https://scopeblind.com/verify",
   "bugs": {
-    "url": "https://github.com/tomjwxf/scopeblind-gateway/issues"
+    "url": "https://github.com/ScopeBlind/verify-mcp/issues"
   },
-  "mcpName": "io.github.tomjwxf/verify-mcp",
+  "mcpName": "io.github.scopeblind/verify-mcp",
   "scripts": {
     "check": "node --check server.js",
     "smoke": "node test/smoke.mjs",
